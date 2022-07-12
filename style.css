@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    flex-direction: column;
+}
+.change {
+    min-height: 35px;
+    min-width: 90px;
+    border-radius: 5px;
+    border: 1px solid rgb(87, 80, 80);
+    box-shadow: 3px 3px 7px 0px;
+    font-size: 18px;
+}
+.change:hover {
+    cursor: pointer;
+}
