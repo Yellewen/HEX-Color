@@ -13,5 +13,5 @@ function changeColor() {
     var newColor = randomColor();
     body.style.backgroundColor = newColor;
     button.style.backgroundColor = newColor;
-    colorNum.innerHTML = "HEX Color: " + randomColor();
+    colorNum.innerHTML = "HEX Color: " + newColor;
 }
